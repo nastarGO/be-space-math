@@ -12,9 +12,9 @@ app.use(express.json());
 app.use(cors());
 
 // 🔹 Konfigurasi Supabase
-const supabaseUrl = 'https://vtlkagbqvvopaiaqstft.supabase.co';
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ0bGthZ2JxdnZvcGFpYXFzdGZ0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU5MTg1MzQsImV4cCI6MjA2MTQ5NDUzNH0.sxiTlDmZz-RUC71PAjSGRR8gy_AjjEAY7x5zoRvLzlw';
-const supabase = createClient('https://vtlkagbqvvopaiaqstft.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ0bGthZ2JxdnZvcGFpYXFzdGZ0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU5MTg1MzQsImV4cCI6MjA2MTQ5NDUzNH0.sxiTlDmZz-RUC71PAjSGRR8gy_AjjEAY7x5zoRvLzlw');
+const supabaseUrl = 'https://jtubewfggxignzizlaaa.supabase.co';
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp0dWJld2ZnZ3hpZ256aXpsYWFhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU3NTk1OTEsImV4cCI6MjA2MTMzNTU5MX0.elLZ32i3AoOcsbDWiZkzl48AN_ExN_Or0OEUm9Z9wJM';
+const supabase = createClient('https://jtubewfggxignzizlaaa.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp0dWJld2ZnZ3hpZ256aXpsYWFhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU3NTk1OTEsImV4cCI6MjA2MTMzNTU5MX0.elLZ32i3AoOcsbDWiZkzl48AN_ExN_Or0OEUm9Z9wJM');
 
 console.log("📌 Supabase Config:", { supabaseUrl, supabaseKey });
 
